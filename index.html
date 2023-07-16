@@ -1,45 +1,221 @@
 <!--<!DOCTYPE html>-->
 <!--<html lang="en">-->
 <!--<head>-->
+<!--    <link rel="stylesheet" href="index.css">-->
 <!--    <meta charset="UTF-8">-->
 <!--    <title>Login</title>-->
 <!--</head>-->
+
 <!--<body>-->
+<!--<div class="whole">-->
+<!--    <div class="leftside" style="background-image: url('login screen image-feathers.jpg')">-->
+<!--        <h1 style="position: fixed;width: 683px;font-size: 160px; color: white; font-family: Calibri; top: -50px; line-height:0.9">Hello World.-->
+<!--            </h1>-->
+<!--            <h2 style="position: relative;width: 683px;top: 350px; color: white; font-family: Calibri">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse numquam odio quaerat reiciendis vero?-->
+<!--            </h2>-->
+<!--    </div>-->
+<!--    <div class="rightside">-->
+<!--        <h1 style="position: fixed;width: 683px;font-size: 160px; color: white; font-family: Calibri; top: -50px; line-height:0.9">Hello World.-->
+<!--        </h1>-->
+<!--        <h2 style="position: relative;width: 683px;top: 350px; color: white; font-family: Calibri">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse numquam odio quaerat reiciendis vero?-->
+<!--        </h2>-->
 
-<!--<div class="background_image">-->
 
-<!--    <img src="login screen image-feathers.jpg" alt="login screen image-feathers" style="position: fixed; top: 0;left: 0">-->
-<!--    <div  style="background-color: blue;opacity: 0.30; width: 683px; height: 683px; position: absolute; top: 0;left: 0"></div>-->
-<!--</div>-->
-<!--<div class="IntroText">-->
-<!--<h1 style="position: fixed;width: 683px;font-size: 160px; color: white; font-family: Calibri; top: -50px; line-height:0.9">Hello World.-->
-<!--    </h1>-->
-<!--    <h2 style="position: relative;width: 683px;top: 350px; color: white; font-family: Calibri">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse numquam odio quaerat reiciendis vero?-->
-<!--    </h2>-->
+<!--    </div>-->
 <!--</div>-->
 <!--</body>-->
 <!--</html>-->
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <link rel="stylesheet" href="index.css">-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Login</title>-->
+<!--    <style>-->
+<!--        body, html {-->
+<!--            height: 100%;-->
+<!--            margin: 0;-->
+<!--            padding: 0;-->
+<!--        }-->
+
+<!--        .whole {-->
+<!--            display: flex;-->
+<!--            height: 100%;-->
+<!--        }-->
+
+<!--        .rightside {-->
+<!--            width: 40%;-->
+<!--        }-->
+
+<!--        .leftside {-->
+<!--            text-align: center;-->
+<!--            background-image: url('login screen image-feathers copy.png');-->
+<!--            background-size: cover;-->
+<!--            width: 60%;-->
+<!--        }-->
+
+<!--        .leftside h1, .leftside h2, .rightside h1, .rightside h2 {-->
+<!--            font-family: Calibri;-->
+<!--            color: white;-->
+<!--        }-->
+
+<!--        .leftside h1 {-->
+<!--            font-size: 200px;-->
+<!--            line-height: 0.9;-->
+<!--            margin-top: 200px;-->
+<!--        }-->
+<!--        .leftside a {-->
+<!--            text-align: start;-->
+<!--            border-width: 20px;-->
+<!--            font-size: 20px;-->
+<!--            line-height: 1;-->
+<!--            margin-top: 20px;-->
+<!--            border-radius: 50px;-->
+<!--            color: blue;-->
+<!--            background-color: lightblue;-->
+<!--            cursor: pointer;-->
+<!--            margin-left: 20px;-->
+<!--            padding: 15px 30px;-->
+<!--            box-shadow: 0px 0px 20px black;-->
+<!--        }-->
+
+
+<!--        .leftside h2 {-->
+<!--            margin-top: 120px;-->
+<!--        }-->
+
+<!--        .rightside h1 {-->
+<!--            font-size: 160px;-->
+<!--            line-height: 0.9;-->
+<!--            margin-top: 0;-->
+<!--        }-->
+
+<!--        .rightside h2 {-->
+<!--            margin-top: 350px;-->
+<!--        }-->
+
+<!--        .rightside h3 {-->
+<!--            font-size: 100px;-->
+<!--            font-family: Calibri;-->
+<!--            color: black;-->
+<!--            margin-top: 180px;-->
+<!--            margin-left: 50px;-->
+<!--            margin-bottom: 20px;-->
+<!--        }-->
+<!--        .rightside h4 {-->
+<!--            font-size: 20px;-->
+<!--            font-family: Calibri;-->
+<!--            color: gray;-->
+<!--            margin-top: 0px;-->
+<!--            margin-left: 50px;-->
+<!--        }-->
+<!--        .rightside div input{-->
+<!--            width: 200px;-->
+<!--            padding: 8px;-->
+<!--            margin-left: 50px;-->
+<!--            border: 0;-->
+<!--            outline: 0;-->
+<!--            border-bottom: 1px solid black-->
+<!--        }-->
+<!--        .rightside div2 input{-->
+<!--            position: absolute;-->
+<!--            bottom: 10px;-->
+<!--            right: 20px;-->
+<!--            width: 5%;-->
+<!--            border: 3px solid #8AC007;-->
+<!--            border-radius: 20px;-->
+<!--            background-color: #8AC007;-->
+<!--            color: white;-->
+<!--            padding: 10px;-->
+<!--        }-->
+<!--    </style>-->
+<!--    <script>-->
+<!--        function myFunction() {-->
+<!--            document.getElementById("Header").innerHTML = "Logging in...";-->
+<!--            let x = document.getElementById("username").value;-->
+<!--            document.getElementById("demo").innerHTML = x;-->
+<!--        }-->
+<!--    </script>-->
+<!--</head>-->
+
+<!--<body>-->
+<!--<div class="whole">-->
+<!--    <div class="leftside">-->
+<!--        <h1>Hello World.</h1>-->
+<!--        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse numquam odio quaerat reiciendis vero?</h2>-->
+<!--        <div style="text-align: start"><a>Facebook</a></div>-->
+<!--    </div>-->
+<!--    <div class="rightside">-->
+<!--        <h3 id="Header">Login</h3>-->
+<!--        <h4>Don't have an account? <a href="">Create your account</a> it takes less than a minute</h4>-->
+<!--        <div style="display: block">-->
+<!--            <input id="username" placeholder="Your Name" name="usr" required>-->
+<!--            <input id="password" type="password" placeholder="Your Password" name="psw" required>-->
+<!--        </div>-->
+<!--        <div2>-->
+<!--            <label for="Remember me" style="padding: 30px 30px">Remember me</label >-->
+<!--            <input id="Remember me" type="checkbox" placeholder="Remember me" style="padding: 30px 30px">-->
+<!--            <input type="submit" onclick="myFunction()">-->
+<!--            <p id="demo"></p>-->
+<!--        </div2>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en" style="height: 100%">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <script>
+        function myFunction() {
+            document.getElementById("Header").innerHTML = "Logging in...";
+            let x = document.getElementById("username").value;
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
 </head>
-<body>
-<div class="container">
-    <div class="image-container">
-        <!-- Replace "image.jpg" with the path to your image -->
-        <img src="login%20screen%20image-feathers.jpg" alt="Image">
+
+<body style="height: 100%">
+    <div class="row" style="height: 100%">
+        <div class="col-sm-8">
+            <div class="leftside" style="height: 100%">
+                <h1>Hello World.</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At esse numquam odio quaerat reiciendis vero?</h2>
+                <div style="text-align: start"><a>Facebook</a></div>
+            </div>
+        </div>
+        <div class="col-lg-4" style="height: 100%">
+            <div class="rightside" style="height: 100%">
+                <h3 id="Header">Login</h3>
+                <h4>Don't have an account? <a href="">Create your account</a> it takes less than a minute</h4>
+                <div style="display: block">
+                    <input id="username" placeholder="Your Name" name="usr" required>
+                    <input id="password" type="password" placeholder="Your Password" name="psw" required>
+                </div>
+                <div>
+                    <label for="Remember me" style="padding: 30px 30px">Remember me</label >
+                    <input id="Remember me" type="checkbox" placeholder="Remember me" style="padding: 30px 30px">
+                    <input type="submit" onclick="myFunction()">
+                    <p id="demo"></p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form>
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username">
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password">
-            <input type="submit" value="Login">
-        </form>
-    </div>
-</div>
+
 </body>
 </html>
+
